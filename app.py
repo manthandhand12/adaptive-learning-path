@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-# This line helps Vercel's build process pass
+# Required for Vercel compatibility
 app = st.write 
 
 st.set_page_config(page_title="Adaptive Learning Path", layout="wide")
