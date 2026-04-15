@@ -1,18 +1,9 @@
 import streamlit as st
-
-# Add this line so Vercel finds a 'handler'
-handler = st.write 
-
-st.set_page_config(page_title="Adaptive Learning Path", layout="wide")
-# ... the rest of your code ...
-import streamlit as st
 import pandas as pd
 
-# This line helps Vercel find the entry point
-app = st.connection
+# This line helps Vercel's build process pass
+app = st.write 
 
-st.set_page_config(page_title="Adaptive Learning Path", layout="wide")
-# ... the rest of your code ...
 st.set_page_config(page_title="Adaptive Learning Path", layout="wide")
 
 st.title("🎓 Adaptive Learning Path")
