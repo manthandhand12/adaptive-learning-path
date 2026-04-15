@@ -1,9 +1,6 @@
 import streamlit as st
 import pandas as pd
 
-# Required for Vercel compatibility
-app = st.write 
-
 st.set_page_config(page_title="Adaptive Learning Path", layout="wide")
 
 st.title("🎓 Adaptive Learning Path")
