@@ -1,6 +1,11 @@
 import streamlit as st
 import pandas as pd
 
+# This line helps Vercel find the entry point
+app = st.connection
+
+st.set_page_config(page_title="Adaptive Learning Path", layout="wide")
+# ... the rest of your code ...
 st.set_page_config(page_title="Adaptive Learning Path", layout="wide")
 
 st.title("🎓 Adaptive Learning Path")
